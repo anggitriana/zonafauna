@@ -1,10 +1,6 @@
 package com.freaky.zonafauna;
 
 
-import id.gits.gosmi.R;
-
-import com.actionbarsherlock.view.SubMenu;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.DialogInterface;
