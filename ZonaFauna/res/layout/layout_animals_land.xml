@@ -1,15 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@color/white"
-    android:gravity="center|center"
-    android:orientation="vertical" >
+    android:background="#0385c8"
+    android:layout_height="fill_parent">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Animals Land" />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/db1_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         
+        tools:context=".AboutActivity"
+        android:orientation="vertical" >
 
-</LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:ignore="InefficientWeight"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_10dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/btn_anjing"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_anjing" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_ayam"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_ayam" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_babi"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_babi" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/btn_gajah"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_gajah" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_harimau"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_harimau" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_bebek"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_bebek" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="NestedWeights"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/btn_kuda"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    tools:ignore="DuplicateIds"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_kuda" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_kucing"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_kucing" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_singa"
+                    style="@style/ListDashboardLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        style="@style/HomeButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_singa" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Anjing"
+                        android:textSize="@dimen/text_18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
